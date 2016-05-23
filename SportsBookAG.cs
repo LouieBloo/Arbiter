@@ -54,14 +54,19 @@ namespace SportsBetting
 					Game tempGame = new Game ();
 					Team homeTempTeam = new Team ();
 					Team awayTempTeam = new Team ();
+                    DateTime timeStamp;
 
-					//Get Time
-					HtmlNodeCollection times = item.SelectNodes (".//div[@id='time']");
+                    //Get Time
+                    HtmlNodeCollection times = item.SelectNodes (".//div[@id='time']");
+                    
 					if (times [0] != null) {
 						tempGame.time = times [0].InnerText;
+                        timeStamp = DateTime.Parse(tempGame.time.Replace("EDT", ""));
+                        //Console.WriteLine("time : " + DateTime.Parse(tempGame.time.Replace("EDT", "")));
 					}
 					else
 					{
+                       
                         Helper.writeError("Couldn't find time! ", fileName + sport);
                     }
 

@@ -49,7 +49,11 @@ namespace SportsBetting
 
             HtmlNodeCollection topRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" topRow \")]");
             HtmlNodeCollection botRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" botRow \")]");
-            if (topRow == null || botRow == null || topRow.Count != botRow.Count)
+            HtmlNodeCollection timeRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" lineColA \")]/small");
+
+            Console.WriteLine(timeRow.Count + " - " + topRow.Count);
+
+            if (topRow == null || botRow == null || timeRow == null || topRow.Count != botRow.Count)
             {
                 Helper.writeError("one of the rows is null or they are mismatched lengths",fileName+sport);
             }
@@ -66,11 +70,19 @@ namespace SportsBetting
                     HtmlNode homeName = topRow[x].SelectSingleNode("./td[@class='lineName']/strong");
                     HtmlNode awayName = botRow[x].SelectSingleNode("./td[@class='lineName']/strong");
 
-                    if(homeName == null || awayName == null)
+                    if (homeName == null || awayName == null)
                     {
                         Helper.writeError("Couldn't find home or away name", fileName + sport);
                         break;
                     }
+                    if (timeRow[x] == null)
+                    {
+                        Helper.writeError("Couldn't find time stamp", fileName + sport);
+                        
+                    }
+
+                    string time = timeRow[x].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").ToString();
+                    DateTime timeStamp = DateTime.Parse(time).AddHours(3);//making it in edt not pac
 
                     string homeTeamName = homeName.InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToString();
                     string awayTeamName = awayName.InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToString();

@@ -7,7 +7,7 @@ namespace SportsBetting
 
 		public Team homeTeam;
 		public Team awayTeam;
-		public string time;
+		public DateTime time;
         public string scraper;
         public Team underDog;
         public Team favorite;

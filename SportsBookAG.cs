@@ -60,8 +60,8 @@ namespace SportsBetting
                     HtmlNodeCollection times = item.SelectNodes (".//div[@id='time']");
                     
 					if (times [0] != null) {
-						tempGame.time = times [0].InnerText;
-                        timeStamp = DateTime.Parse(tempGame.time.Replace("EDT", ""));
+						//tempGame.time = times [0].InnerText;
+                        //timeStamp = DateTime.Parse(tempGame.time.Replace("EDT", ""));
                         //Console.WriteLine("time : " + DateTime.Parse(tempGame.time.Replace("EDT", "")));
 					}
 					else

@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="ArbiterCompare.cs" />
     <Compile Include="BetDSI.cs" />
+    <Compile Include="GetSportSchedule.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="MainArbitrage.cs" />
     <Compile Include="MainForm.cs">

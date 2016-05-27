@@ -98,6 +98,34 @@ namespace SportsBetting
         }
 
 
+        public void sendCalendarGameToServer(string homeTeam, string awayTeam, string gameTime)
+        {
+            Console.WriteLine("sending calendar game to server...");
+            string URL = "http://lukeleggio.com/arbiter/uploadSeasonData.php";
+            WebClient webClient = new WebClient();
+
+            NameValueCollection formData = new NameValueCollection();
+
+            formData["homeTeam"] = homeTeam;
+            formData["awayTeam"] = awayTeam;
+            formData["gameTime"] = gameTime;
+            
+
+            byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
+            string responsefromserver = Encoding.UTF8.GetString(responseBytes);
+
+
+            if (responsefromserver != "")
+            {
+                //Helper.writeError("Failure sending game to server", "WebSiteCom");
+            }
+
+            Console.WriteLine(responsefromserver);
+            webClient.Dispose();
+
+
+        }
+
         public void listen()
         {
             //WebServer ws = new WebServer(SendResponse, "http://[2601:204:d300:a6fc:195c:6e37:48bd:c8a0]/");

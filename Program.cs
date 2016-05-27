@@ -47,7 +47,8 @@ namespace SportsBetting
             GlobalArbitrage.addSport("MLB");
             //GlobalArbitrage.startFullSportArbitrage();
            GlobalArbitrage.currentSport = "MLB";
-          GlobalArbitrage.scrapeAllSites();
+            //GlobalArbitrage.scrapeAllSites();
+          
             Console.ReadKey();
 
         }

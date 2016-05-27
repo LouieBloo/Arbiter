@@ -17,6 +17,8 @@ using System.ComponentModel;
 using System.Net;
 using System.Collections.Specialized;
 using System.Timers;
+using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace SportsBetting
 {
@@ -317,6 +319,11 @@ namespace SportsBetting
             //pullData("https://www.betdsi.eu/sportsbook-betting/", "NBA");
 
         }
+
+        
+
+
+        
 
     }
 }

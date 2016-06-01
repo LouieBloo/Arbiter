@@ -23,7 +23,7 @@ namespace SportsBetting
 		public string dumpData()
 		{
 			string output = "Dumping data of game " + homeTeam.name + " VS " + awayTeam.name + Environment.NewLine;
-
+            output += "Estimated Time: " + time + Environment.NewLine;
             output += homeTeam.name + ": Line: " + homeTeam.moneyLine + Environment.NewLine;
             output += awayTeam.name + ": Line: " + awayTeam.moneyLine + Environment.NewLine;
 

@@ -1,8 +1,8 @@
-<!DOCTYPE html><html class=" -webkit- js no-flexbox flexbox-legacy canvas canvastext no-webgl touch no-geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent no-video no-audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta charset="UTF-8"><meta name="ROBOTS" content="NOODP"><meta name="ROBOTS" content="NOYDIR"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="google-site-verification" content="nN-HYNGA_0CWkYjNskD9Z8neeMwDK7a4vEZzpPLA6MQ">
+﻿<!DOCTYPE html><html class=" -webkit- js no-flexbox flexbox-legacy canvas canvastext no-webgl touch no-geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent no-video no-audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta charset="UTF-8"><meta name="ROBOTS" content="NOODP"><meta name="ROBOTS" content="NOYDIR"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="google-site-verification" content="nN-HYNGA_0CWkYjNskD9Z8neeMwDK7a4vEZzpPLA6MQ">
     <!-- seo -->
     
 	<title>Online Sportsbook - Sports Betting Online at BetDSI Sportsbook</title>
-<meta http-equiv="Last-Modified" content="Sunday, May 22, 2016, 9:25:48 PM">
+<meta http-equiv="Last-Modified" content="Tuesday, May 31, 2016, 7:57:38 PM">
 <meta name="description" content="BetDSI Sportsbook offers live online sportsbook odds and sports betting action on NFL, NBA, NHL, UFC &amp; more! Sign Up to get up to $2,500 FREE online bonus.">
 <meta name="keywords" content="online sportsbook, sportsbook, sportsbook betting, sports betting online, sporsbook odds, sportsbook lines, offshore sportsbook, sports book">
 <link rel="shortcut icon" href="/images/dsi-16x16.ico" type="image/x-icon">
@@ -3097,52 +3097,52 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
   <h2>Latest Sportsbook Lines</h2>
   <ul>
     <li class="listedMatch">
-      <span class="upMTP">761 minutes left to post!
+      <span class="upMTP">191 minutes left to post!
         </span>
       <span class="upMatch">
-        <a class="upcomingDetailLineMP" rel="SOCCER_12253_2219226" href="#">VIBORG FF vs BRONDBY IF</a>
+        <a class="upcomingDetailLineMP" rel="BASKETBALL_12141_2248139" href="#">2H CONN SUN vs 2H PHO MERCURY</a>
       </span>
       <div class="upcomInfoBox">
           &nbsp;
           <span class="imgArrow">&nbsp;</span><span class="
-              catImg  SOCCER">&nbsp;
-          </span><span class="upcomDate">5/23/2016 10:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">VIBORG FF</td><td>@</td><td class="gameName colRg">BRONDBY IF</td></tr></tbody></table></div></div>
+              catImg  BASKETBALL">&nbsp;
+          </span><span class="upcomDate">5/31/2016 11:00:00 PM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">2H CONN SUN</td><td>@</td><td class="gameName colRg">2H PHO MERCURY</td></tr></tbody></table></div></div>
     </li>
     <li class="listedMatch">
-      <span class="upMTP">761 minutes left to post!
+      <span class="upMTP">371 minutes left to post!
         </span>
       <span class="upMatch">
-        <a class="upcomingDetailLineMP" rel="SOCCER_10006_2222468" href="#">AIK vs GEFLE IF</a>
+        <a class="upcomingDetailLineMP" rel="BASEBALL_12835_2249021" href="#">CHUNICHI DRAGONS vs FUKUOKA S. HAWKS</a>
       </span>
       <div class="upcomInfoBox">
           &nbsp;
           <span class="imgArrow">&nbsp;</span><span class="
-              catImg  SOCCER">&nbsp;
-          </span><span class="upcomDate">5/23/2016 10:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">AIK</td><td>@</td><td class="gameName colRg">GEFLE IF</td></tr></tbody></table></div></div>
+              catImg  BASEBALL">&nbsp;
+          </span><span class="upcomDate">6/1/2016 2:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">CHUNICHI DRAGONS</td><td>@</td><td class="gameName colRg">FUKUOKA S. HAWKS</td></tr></tbody></table></div></div>
     </li>
     <li class="listedMatch">
-      <span class="upMTP">761 minutes left to post!
+      <span class="upMTP">371 minutes left to post!
         </span>
       <span class="upMatch">
-        <a class="upcomingDetailLineMP" rel="SOCCER_10006_2222470" href="#">FALKENBERGS FF vs MALMO FF</a>
+        <a class="upcomingDetailLineMP" rel="BASEBALL_12835_2249024" href="#">HANSHIN TIGERS vs RAKUTEN GOLD. EAGLES</a>
       </span>
       <div class="upcomInfoBox">
           &nbsp;
           <span class="imgArrow">&nbsp;</span><span class="
-              catImg  SOCCER">&nbsp;
-          </span><span class="upcomDate">5/23/2016 10:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">FALKENBERGS FF</td><td>@</td><td class="gameName colRg">MALMO FF</td></tr></tbody></table></div></div>
+              catImg  BASEBALL">&nbsp;
+          </span><span class="upcomDate">6/1/2016 2:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">HANSHIN TIGERS</td><td>@</td><td class="gameName colRg">RAKUTEN GOLD. EAGLES</td></tr></tbody></table></div></div>
     </li>
     <li class="listedMatch  noBorder">
-      <span class="upMTP">761 minutes left to post!
+      <span class="upMTP">371 minutes left to post!
         </span>
       <span class="upMatch">
-        <a class="upcomingDetailLineMP" rel="SOCCER_10006_2222469" href="#">HAMMARBY IF vs IFK GOTHENBORG</a>
+        <a class="upcomingDetailLineMP" rel="BASEBALL_12835_2249026" href="#">HIROSHIMA CARP vs CHIBA LOTTE MARINES</a>
       </span>
       <div class="upcomInfoBox">
           &nbsp;
           <span class="imgArrow">&nbsp;</span><span class="
-              catImg  SOCCER">&nbsp;
-          </span><span class="upcomDate">5/23/2016 10:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">HAMMARBY IF</td><td>@</td><td class="gameName colRg">IFK GOTHENBORG</td></tr></tbody></table></div></div>
+              catImg  BASEBALL">&nbsp;
+          </span><span class="upcomDate">6/1/2016 2:00:00 AM</span><div class="upcomTxtBox"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gameName colLf">HIROSHIMA CARP</td><td>@</td><td class="gameName colRg">CHIBA LOTTE MARINES</td></tr></tbody></table></div></div>
     </li>
   </ul>
 </div>
@@ -3197,18 +3197,18 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
   <ul id="ltCategory" class="activeList">
     <li class="catTitle selectedMenu" id="categoryBASKETBALL">
       <a href="/betting-live-odds.aspx">
-        <span>BASKETBALL <span class="catSelections">(32)</span></span>
+        <span>BASKETBALL <span class="catSelections">(22)</span></span>
       </a>
       <small>[-]</small>
       <ul class="categoryLeagues" style="overflow: hidden; display: block;">
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league3">
-            <span>NBA<span class="leaSelections">(12)</span></span>
+            <span>NBA<span class="leaSelections">(6)</span></span>
           </a>
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league202">
-            <span>NBA - 1ST HALVES<span class="leaSelections">(10)</span></span>
+            <span>NBA - 1ST HALVES<span class="leaSelections">(6)</span></span>
           </a>
         </li>
         <li class="leagueItem">
@@ -3217,44 +3217,49 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12133">
-            <span>BASKETBALL - UNITED LEAGUE<span class="leaSelections">(4)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12139">
+            <span>WNBA<span class="leaSelections">(8)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12268">
-            <span>BASKETBALL - ITALY<span class="leaSelections">(4)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12141">
+            <span>WNBA - 2ND HALVES<span class="leaSelections">(0)</span></span>
           </a>
         </li>
       </ul>
     </li>
     <li class="catTitle selectedMenu" id="categoryBASEBALL">
       <a href="/betting-live-odds.aspx">
-        <span>BASEBALL <span class="catSelections">(40)</span></span>
+        <span>BASEBALL <span class="catSelections">(120)</span></span>
       </a>
       <small>[-]</small>
       <ul class="categoryLeagues" style="overflow: hidden; display: block;">
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league5">
-            <span>MAJOR LEAGUE BASEBALL<span class="leaSelections">(40)</span></span>
+            <span>MAJOR LEAGUE BASEBALL<span class="leaSelections">(54)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12835">
+            <span>JAPAN - BASEBALL<span class="leaSelections">(36)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12836">
+            <span>KOREAN - BASEBALL<span class="leaSelections">(30)</span></span>
           </a>
         </li>
       </ul>
     </li>
     <li class="catTitle" id="categorySOCCER">
       <a href="/betting-live-odds.aspx">
-        <span>SOCCER <span class="catSelections">(609)</span></span>
+        <span>SOCCER <span class="catSelections">(605)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league10016">
-            <span>UEFA - CHAMPIONS LEAGUE<span class="leaSelections">(14)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12703">
-            <span>COPA AMERICA<span class="leaSelections">(56)</span></span>
+            <span>COPA AMERICA<span class="leaSelections">(112)</span></span>
           </a>
         </li>
         <li class="leagueItem">
@@ -3263,48 +3268,38 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12241">
-            <span>ARGENTINA - PRIMERA DIVISION<span class="leaSelections">(14)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12242">
+            <span>BRAZIL - SERIE A<span class="leaSelections">(70)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12253">
-            <span>DENMARK - SAS LIGAEN<span class="leaSelections">(7)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league10004">
-            <span>GERMANY - BUNDESLIGA<span class="leaSelections">(7)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12344">
+            <span>CROATIA - HNL LEAGUE 1<span class="leaSelections">(7)</span></span>
           </a>
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league10090">
-            <span>INTERNATIONAL FRIENDLIES<span class="leaSelections">(7)</span></span>
+            <span>INTERNATIONAL FRIENDLIES<span class="leaSelections">(98)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12809">
-            <span>PERU - PRIMERA DIVISION<span class="leaSelections">(7)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12175">
+            <span>IRELAND - EIRCOM LEAGUE<span class="leaSelections">(35)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league10006">
-            <span>SWEDEN ALLSVENSKAN<span class="leaSelections">(21)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12226">
+            <span>ITALY - SERIE B<span class="leaSelections">(7)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league10007">
+            <span>USA - MLS<span class="leaSelections">(42)</span></span>
           </a>
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12068">
-            <span>SOCCER FUTURES<span class="leaSelections">(286)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12861">
-            <span>SOCCER FUTURES (MULTI)<span class="leaSelections">(72)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12889">
-            <span>SOCCER SPECIALS<span class="leaSelections">(6)</span></span>
+            <span>SOCCER FUTURES<span class="leaSelections">(122)</span></span>
           </a>
         </li>
         <li class="leagueItem">
@@ -3315,6 +3310,34 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12516">
             <span>OLYMPICS - WOMENS SOCCER<span class="leaSelections">(12)</span></span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="catTitle" id="categoryTENNIS">
+      <a href="/betting-live-odds.aspx">
+        <span>TENNIS <span class="catSelections">(63)</span></span>
+      </a>
+      <small>[+]</small>
+      <ul class="categoryLeagues">
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12331">
+            <span>TENNIS -  ATP MATCHUPS<span class="leaSelections">(12)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12332">
+            <span>TENNIS -  WTA MATCHUPS<span class="leaSelections">(24)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12869">
+            <span>TENNIS -  DOUBLES<span class="leaSelections">(12)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12523">
+            <span>OLYMPICS - MENS TENNIS<span class="leaSelections">(15)</span></span>
           </a>
         </li>
       </ul>
@@ -3337,32 +3360,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
         </li>
       </ul>
     </li>
-    <li class="catTitle" id="categoryTENNIS">
-      <a href="/betting-live-odds.aspx">
-        <span>TENNIS <span class="catSelections">(359)</span></span>
-      </a>
-      <small>[+]</small>
-      <ul class="categoryLeagues">
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12331">
-            <span>TENNIS -  ATP MATCHUPS<span class="leaSelections">(164)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12332">
-            <span>TENNIS -  WTA MATCHUPS<span class="leaSelections">(180)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12523">
-            <span>OLYMPICS - MENS TENNIS<span class="leaSelections">(15)</span></span>
-          </a>
-        </li>
-      </ul>
-    </li>
     <li class="catTitle" id="categoryFOOTBALL">
       <a href="/betting-live-odds.aspx">
-        <span>FOOTBALL <span class="catSelections">(62)</span></span>
+        <span>FOOTBALL <span class="catSelections">(158)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
@@ -3373,46 +3373,20 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league208">
-            <span>NFL - FUTURES<span class="leaSelections">(2)</span></span>
+            <span>NFL - FUTURES<span class="leaSelections">(98)</span></span>
           </a>
         </li>
       </ul>
     </li>
-    <li class="catTitle" id="categoryGOLF">
+    <li class="catTitle" id="categoryCYCLING">
       <a href="/betting-live-odds.aspx">
-        <span>GOLF <span class="catSelections">(195)</span></span>
+        <span>CYCLING <span class="catSelections">(24)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12003">
-            <span>GOLF PICK WINNER<span class="leaSelections">(195)</span></span>
-          </a>
-        </li>
-      </ul>
-    </li>
-    <li class="catTitle" id="categoryMARTIAL">
-      <a href="/betting-live-odds.aspx">
-        <span>MARTIAL ARTS <span class="catSelections">(78)</span></span>
-      </a>
-      <small>[+]</small>
-      <ul class="categoryLeagues">
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league206">
-            <span>MMA - UFC<span class="leaSelections">(78)</span></span>
-          </a>
-        </li>
-      </ul>
-    </li>
-    <li class="catTitle" id="categoryBOXING">
-      <a href="/betting-live-odds.aspx">
-        <span>BOXING <span class="catSelections">(6)</span></span>
-      </a>
-      <small>[+]</small>
-      <ul class="categoryLeagues">
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12064">
-            <span>BOXING<span class="leaSelections">(6)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12672">
+            <span>CYCLING<span class="leaSelections">(24)</span></span>
           </a>
         </li>
       </ul>
@@ -3435,53 +3409,120 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
         </li>
       </ul>
     </li>
+    <li class="catTitle" id="categoryGOLF">
+      <a href="/betting-live-odds.aspx">
+        <span>GOLF <span class="catSelections">(383)</span></span>
+      </a>
+      <small>[+]</small>
+      <ul class="categoryLeagues">
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league11">
+            <span>GOLF MATCHUPS<span class="leaSelections">(90)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12003">
+            <span>GOLF PICK WINNER<span class="leaSelections">(245)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12783">
+            <span>GOLF PROPS<span class="leaSelections">(48)</span></span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="catTitle" id="categoryPOLITICS">
+      <a href="/betting-live-odds.aspx">
+        <span>POLITICS <span class="catSelections">(6)</span></span>
+      </a>
+      <small>[+]</small>
+      <ul class="categoryLeagues">
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12320">
+            <span>U.S.A. ELECTIONS<span class="leaSelections">(6)</span></span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="catTitle" id="categoryMARTIAL">
+      <a href="/betting-live-odds.aspx">
+        <span>MARTIAL ARTS <span class="catSelections">(50)</span></span>
+      </a>
+      <small>[+]</small>
+      <ul class="categoryLeagues">
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league206">
+            <span>MMA - UFC<span class="leaSelections">(50)</span></span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="catTitle" id="categoryBOXING">
+      <a href="/betting-live-odds.aspx">
+        <span>BOXING <span class="catSelections">(54)</span></span>
+      </a>
+      <small>[+]</small>
+      <ul class="categoryLeagues">
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12064">
+            <span>BOXING<span class="leaSelections">(54)</span></span>
+          </a>
+        </li>
+      </ul>
+    </li>
     <li class="catTitle" id="categoryRUGBY">
       <a href="/betting-live-odds.aspx">
-        <span>RUGBY <span class="catSelections">(4)</span></span>
+        <span>RUGBY <span class="catSelections">(22)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12110">
-            <span>RUGBY LEAGUE<span class="leaSelections">(4)</span></span>
+            <span>RUGBY LEAGUE<span class="leaSelections">(6)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12282">
+            <span>RUGBY LEAGUE FUTURES<span class="leaSelections">(16)</span></span>
           </a>
         </li>
       </ul>
     </li>
-    <li class="catTitle" id="categoryCYCLING">
+    <li class="catTitle" id="categoryAUSSIE">
       <a href="/betting-live-odds.aspx">
-        <span>CYCLING <span class="catSelections">(15)</span></span>
+        <span>AUSSIE RULES <span class="catSelections">(26)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12672">
-            <span>CYCLING<span class="leaSelections">(13)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12118">
+            <span>AUSSIE RULES<span class="leaSelections">(8)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12202">
-            <span>CYCLING MATCHUPS<span class="leaSelections">(2)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12169">
+            <span>AUSSIE RULES FUTURES<span class="leaSelections">(18)</span></span>
           </a>
         </li>
       </ul>
     </li>
-    <li class="catTitle" id="categoryHANDBALL">
+    <li class="catTitle" id="categoryE-SPORTS">
       <a href="/betting-live-odds.aspx">
-        <span>HANDBALL <span class="catSelections">(4)</span></span>
+        <span>E-SPORTS <span class="catSelections">(32)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12432">
-            <span>HANDBALL FUTURES<span class="leaSelections">(4)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12868">
+            <span>E-SPORTS<span class="leaSelections">(32)</span></span>
           </a>
         </li>
       </ul>
     </li>
     <li class="catTitle" id="categoryOLYMPICS">
       <a href="/betting-live-odds.aspx">
-        <span>OLYMPICS <span class="catSelections">(47)</span></span>
+        <span>OLYMPICS <span class="catSelections">(89)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
@@ -3496,8 +3537,28 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
           </a>
         </li>
         <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12518">
+            <span>OLYMPICS - WOMENS HANDBALL<span class="leaSelections">(12)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12522">
+            <span>OLYMPICS - MENS HANDBALL<span class="leaSelections">(12)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12523">
             <span>OLYMPICS - MENS TENNIS<span class="leaSelections">(15)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12524">
+            <span>OLYMPICS - MENS WATERPOLO<span class="leaSelections">(10)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12525">
+            <span>OLYMPICS - WOMENS WATERPOLO<span class="leaSelections">(8)</span></span>
           </a>
         </li>
         <li class="leagueItem">
@@ -3509,13 +3570,13 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
     </li>
     <li class="catTitle" id="categoryFUTURES">
       <a href="/betting-live-odds.aspx">
-        <span>FUTURES <span class="catSelections">(569)</span></span>
+        <span>FUTURES <span class="catSelections">(509)</span></span>
       </a>
       <small>[+]</small>
       <ul class="categoryLeagues">
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league208">
-            <span>NFL - FUTURES<span class="leaSelections">(2)</span></span>
+            <span>NFL - FUTURES<span class="leaSelections">(98)</span></span>
           </a>
         </li>
         <li class="leagueItem">
@@ -3524,28 +3585,28 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12861">
-            <span>SOCCER FUTURES (MULTI)<span class="leaSelections">(72)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12320">
+            <span>U.S.A. ELECTIONS<span class="leaSelections">(6)</span></span>
           </a>
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12068">
-            <span>SOCCER FUTURES<span class="leaSelections">(286)</span></span>
-          </a>
-        </li>
-        <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12889">
-            <span>SOCCER SPECIALS<span class="leaSelections">(6)</span></span>
+            <span>SOCCER FUTURES<span class="leaSelections">(122)</span></span>
           </a>
         </li>
         <li class="leagueItem">
           <a href="/betting-live-odds.aspx" id="league12003">
-            <span>GOLF PICK WINNER<span class="leaSelections">(195)</span></span>
+            <span>GOLF PICK WINNER<span class="leaSelections">(245)</span></span>
           </a>
         </li>
         <li class="leagueItem">
-          <a href="/betting-live-odds.aspx" id="league12432">
-            <span>HANDBALL FUTURES<span class="leaSelections">(4)</span></span>
+          <a href="/betting-live-odds.aspx" id="league12282">
+            <span>RUGBY LEAGUE FUTURES<span class="leaSelections">(16)</span></span>
+          </a>
+        </li>
+        <li class="leagueItem">
+          <a href="/betting-live-odds.aspx" id="league12169">
+            <span>AUSSIE RULES FUTURES<span class="leaSelections">(18)</span></span>
           </a>
         </li>
       </ul>
@@ -3585,126 +3646,168 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManagerLines', 'aspnetF
         <a href="#">&nbsp;</a>
       </div>
     </div>
-    <div class="backToMenu" onclick="animateBackToTop();">Menu</div><div class="externalLinesPage" id="lineasPage1" style="display: block;"><div class="linesSubhead"><h2>MAJOR LEAGUE BASEBALL - May 23&nbsp;</h2></div><div class="linesContent"><div class="linesSubhead"><h2>NATIONAL LEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244251"><tbody><tr class="oddR"><td class="lineColA"><small>4:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>NY METS</strong><span class="gPitch">B COLON -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½-120&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">63.6%
-														</span></td><td class="lineTotal"><span class="lineTxt">+149&nbsp;</span><span class="
-																		consensusTxt
-																	">21.7%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>WAS NATIONALS</strong><span class="gPitch">G GONZALEZ -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½EV&nbsp;</span><span class="
-																		consensusTxt
-																	">36.4%
-														</span></td><td class="lineTotal"><span class="lineTxt">-164&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">78.3%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244252"><tbody><tr class="evenR"><td class="lineColA"><small>5:15 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CHI CUBS</strong><span class="gPitch">J LACKEY -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½-110&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">84.2%
-														</span></td><td class="lineTotal"><span class="lineTxt">-119&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">53.5%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>STL CARDINALS</strong><span class="gPitch">A WAINWRIGHT -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½-110&nbsp;</span><span class="
-																		consensusTxt
-																	">15.8%
-														</span></td><td class="lineTotal"><span class="lineTxt">+109&nbsp;</span><span class="
-																		consensusTxt
-																	">46.6%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244253"><tbody><tr class="oddR"><td class="lineColA"><small>7:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CIN REDS</strong><span class="gPitch">B FINNEGAN -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov6½-115&nbsp;</span><span class="
-																		consensusTxt
-																	">45.5%
-														</span></td><td class="lineTotal"><span class="lineTxt">+300&nbsp;</span><span class="
-																		consensusTxt
-																	">44.1%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>LA DODGERS</strong><span class="gPitch">C KERSHAW -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un6½-105&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">54.6%
-														</span></td><td class="lineTotal"><span class="lineTxt">-360&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">55.9%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244254"><tbody><tr class="evenR"><td class="lineColA"><small>7:15 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>SDG PADRES</strong><span class="gPitch">D POMERANZ -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov6½-115&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">53.9%
-														</span></td><td class="lineTotal"><span class="lineTxt">+160&nbsp;</span><span class="
-																		consensusTxt
-																	">8.9%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>SFO GIANTS</strong><span class="gPitch">J CUETO -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un6½-105&nbsp;</span><span class="
-																		consensusTxt
-																	">46.2%
-														</span></td><td class="lineTotal"><span class="lineTxt">-180&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">91.1%
-														</span></td></tr></tbody></table></td></tr></tbody></table></div><div class="linesSubhead"><h2>AMERICAN LEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244255"><tbody><tr class="evenR"><td class="lineColA"><small>5:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>LA ANGELS</strong><span class="gPitch">N TROPEANO -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9½-110&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">66.7%
-														</span></td><td class="lineTotal"><span class="lineTxt">+102&nbsp;</span><span class="
-																		consensusTxt
-																	">31.4%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>TEX RANGERS</strong><span class="gPitch">D HOLLAND -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9½-110&nbsp;</span><span class="
-																		consensusTxt
-																	">33.3%
-														</span></td><td class="lineTotal"><span class="lineTxt">-112&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">68.6%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244256"><tbody><tr class="oddR"><td class="lineColA"><small>5:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CLE INDIANS</strong><span class="gPitch">C ANDERSON -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9-125&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">66.7%
-														</span></td><td class="lineTotal"><span class="lineTxt">+104&nbsp;</span><span class="
-																		consensusTxt
-																	">46.7%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>CHI WHITE SOX</strong><span class="gPitch">E JOHNSON -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9+105&nbsp;</span><span class="
-																		consensusTxt
-																	">33.3%
-														</span></td><td class="lineTotal"><span class="lineTxt">-114&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">53.3%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244257"><tbody><tr class="evenR"><td class="lineColA"><small>5:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>KC ROYALS</strong><span class="gPitch">I KENNEDY -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8½-105&nbsp;</span><span class="
+    <div class="backToMenu" onclick="animateBackToTop();">Menu</div><div class="externalLinesPage" id="lineasPage1" style="display: block;"><div class="linesSubhead"><h2>MAJOR LEAGUE BASEBALL - Jun 01&nbsp;</h2></div><div class="linesContent"><div class="linesSubhead"><h2>NATIONAL LEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248960"><tbody><tr class="oddR"><td class="lineColA"><small>10:40 AM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>STL CARDINALS</strong><span class="gPitch">J GARCIA -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9EV&nbsp;</span><span class="
 																		consensusTxt imWinning
 																	">71.4%
-														</span></td><td class="lineTotal"><span class="lineTxt">-126&nbsp;</span><span class="
+														</span></td><td class="lineTotal"><span class="lineTxt">-154&nbsp;</span><span class="
 																		consensusTxt imWinning
-																	">82.1%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>MIN TWINS</strong><span class="gPitch">R NOLASCO -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8½-115&nbsp;</span><span class="
+																	">63.6%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>MIL BREWERS</strong><span class="gPitch">Z DAVIES -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9-120&nbsp;</span><span class="
 																		consensusTxt
 																	">28.6%
-														</span></td><td class="lineTotal"><span class="lineTxt">+116&nbsp;</span><span class="
+														</span></td><td class="lineTotal"><span class="lineTxt">+139&nbsp;</span><span class="
 																		consensusTxt
-																	">17.9%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244258"><tbody><tr class="oddR"><td class="lineColA"><small>7:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>OAK ATHLETICS</strong><span class="gPitch">R HILL -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7-110&nbsp;</span><span class="
+																	">36.4%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248961"><tbody><tr class="evenR"><td class="lineColA"><small>4:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>WAS NATIONALS</strong><span class="gPitch">M SCHERZER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½+110&nbsp;</span><span class="
 																		consensusTxt
-																	">20.0%
-														</span></td><td class="lineTotal"><span class="lineTxt">+114&nbsp;</span><span class="
-																		consensusTxt
-																	">41.2%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>SEA MARINERS</strong><span class="gPitch">T WALKER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7-110&nbsp;</span><span class="
+																	">0.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-215&nbsp;</span><span class="
 																		consensusTxt imWinning
 																	">80.0%
-														</span></td><td class="lineTotal"><span class="lineTxt">-124&nbsp;</span><span class="
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>PHI PHILLIES</strong><span class="gPitch">A MORGAN -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½-130&nbsp;</span><span class="
 																		consensusTxt imWinning
-																	">58.8%
-														</span></td></tr></tbody></table></td></tr></tbody></table></div><div class="linesSubhead"><h2>INTERLEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244259"><tbody><tr class="oddR"><td class="lineColA"><small>4:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>PHI PHILLIES</strong><span class="gPitch">V VELASQUEZ -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span>-</span></td></tr><tr class="botRow"><td class="lineName"><strong>DET TIGERS</strong><span class="gPitch">M PELFREY -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span>-</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244260"><tbody><tr class="evenR"><td class="lineColA"><small>4:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>TB RAYS</strong><span class="gPitch">M MOORE -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½-110&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">80.0%
-														</span></td><td class="lineTotal"><span class="lineTxt">+109&nbsp;</span><span class="
-																		consensusTxt imWinning
-																	">59.4%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>MIA MARLINS</strong><span class="gPitch">W CHEN -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½-110&nbsp;</span><span class="
+																	">100.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+175&nbsp;</span><span class="
 																		consensusTxt
 																	">20.0%
-														</span></td><td class="lineTotal"><span class="lineTxt">-119&nbsp;</span><span class="
-																		consensusTxt
-																	">40.6%
-														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2244261"><tbody><tr class="oddR"><td class="lineColA"><small>2:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CLE INDIANS</strong><span class="gPitch">M CLEVINGER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9-115&nbsp;</span><span class="
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248962"><tbody><tr class="oddR"><td class="lineColA"><small>4:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>SFO GIANTS</strong></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span>-</span></td></tr><tr class="botRow"><td class="lineName"><strong>ATL BRAVES</strong><span class="gPitch">W PEREZ -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span>-</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248963"><tbody><tr class="evenR"><td class="lineColA"><small>4:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>PIT PIRATES</strong><span class="gPitch">J NIESE -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8½-120&nbsp;</span><span class="
 																		consensusTxt imWinning
-																	">66.7%
-														</span></td><td class="lineTotal"><span class="lineTxt">-101&nbsp;</span><span class="
+																	">75.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+104&nbsp;</span><span class="
 																		consensusTxt
-																	">40.0%
-														</span></td></tr><tr class="botRow"><td class="lineName"><strong>CHI WHITE SOX</strong><span class="gPitch">M LATOS -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9-105&nbsp;</span><span class="
+																	">41.7%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>MIA MARLINS</strong><span class="gPitch">A CONLEY -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8½EV&nbsp;</span><span class="
+																		consensusTxt
+																	">25.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-114&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">58.3%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248964"><tbody><tr class="oddR"><td class="lineColA"><small>5:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>LA DODGERS</strong><span class="gPitch">M BOLSINGER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span class="lineTxt">+164&nbsp;</span><span class="
+																		consensusTxt
+																	">22.2%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>CHI CUBS</strong><span class="gPitch">J LESTER -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span>-</span></td><td class="lineTotal"><span class="lineTxt">-184&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">77.8%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248965"><tbody><tr class="evenR"><td class="lineColA"><small>5:40 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CIN REDS</strong><span class="gPitch">J LAMB -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov11-115&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">87.5%
+														</span></td><td class="lineTotal"><span class="lineTxt">+158&nbsp;</span><span class="
 																		consensusTxt
 																	">33.3%
-														</span></td><td class="lineTotal"><span class="lineTxt">-109&nbsp;</span><span class="
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>COL ROCKIES</strong><span class="gPitch">T CHATWOOD -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un11-105&nbsp;</span><span class="
+																		consensusTxt
+																	">12.5%
+														</span></td><td class="lineTotal"><span class="lineTxt">-178&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">66.7%
+														</span></td></tr></tbody></table></td></tr></tbody></table></div><div class="linesSubhead"><h2>AMERICAN LEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248966"><tbody><tr class="evenR"><td class="lineColA"><small>12:35 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>MIN TWINS</strong><span class="gPitch">P DEAN -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8½-120&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">50.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+108&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">62.5%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>OAK ATHLETICS</strong><span class="gPitch">S MANAEA -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8½EV&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">50.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-118&nbsp;</span><span class="
+																		consensusTxt
+																	">37.5%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248967"><tbody><tr class="oddR"><td class="lineColA"><small>3:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>TEX RANGERS</strong><span class="gPitch">C HAMELS -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8-115&nbsp;</span><span class="
 																		consensusTxt imWinning
 																	">60.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-105&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">70.6%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>CLE INDIANS</strong><span class="gPitch">T BAUER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8-105&nbsp;</span><span class="
+																		consensusTxt
+																	">40.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-105&nbsp;</span><span class="
+																		consensusTxt
+																	">29.4%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248968"><tbody><tr class="evenR"><td class="lineColA"><small>4:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>DET TIGERS</strong><span class="gPitch">M FULMER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8EV&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">70.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+103&nbsp;</span><span class="
+																		consensusTxt
+																	">37.5%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>LA ANGELS</strong><span class="gPitch">M SHOEMAKER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8-120&nbsp;</span><span class="
+																		consensusTxt
+																	">30.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-113&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">62.5%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248969"><tbody><tr class="oddR"><td class="lineColA"><small>4:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>BOS RED SOX</strong><span class="gPitch">J KELLY -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9½-105&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">100.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-110&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">62.5%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>BAL ORIOLES</strong><span class="gPitch">M WRIGHT -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9½-115&nbsp;</span><span class="
+																		consensusTxt
+																	">0.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">EV&nbsp;</span><span class="
+																		consensusTxt
+																	">37.5%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248970"><tbody><tr class="evenR"><td class="lineColA"><small>4:05 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>NY YANKEES</strong><span class="gPitch">M TANAKA -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov8EV&nbsp;</span><span class="
+																		consensusTxt
+																	">28.6%
+														</span></td><td class="lineTotal"><span class="lineTxt">EV&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">58.3%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>TOR BLUE JAYS</strong><span class="gPitch">A SANCHEZ -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un8-120&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">71.4%
+														</span></td><td class="lineTotal"><span class="lineTxt">-110&nbsp;</span><span class="
+																		consensusTxt
+																	">41.7%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248971"><tbody><tr class="oddR"><td class="lineColA"><small>5:15 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>TB RAYS</strong><span class="gPitch">C ARCHER -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½-110&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">90.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-102&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">75.0%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>KC ROYALS</strong><span class="gPitch">D DUFFY -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½-110&nbsp;</span><span class="
+																		consensusTxt
+																	">10.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-108&nbsp;</span><span class="
+																		consensusTxt
+																	">25.0%
+														</span></td></tr></tbody></table></td></tr></tbody></table></div><div class="linesSubhead"><h2>INTERLEAGUE</h2></div><div class="linesContentIn"><table cellpadding="0" cellspacing="0" class="topTable"><tbody><tr><td class="lineColA"></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="lineName"></td><td class="lineSpread">POINT SPREAD</td><td class="lineOverunder">OVER/UNDER</td><td class="lineTotal">MONEY LINE</td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248972"><tbody><tr class="oddR"><td class="lineColA"><small>10:10 AM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>CHI WHITE SOX</strong><span class="gPitch">M GONZALEZ -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7½+110&nbsp;</span><span class="
+																		consensusTxt
+																	">40.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+225&nbsp;</span><span class="
+																		consensusTxt
+																	">22.2%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>NY METS</strong><span class="gPitch">J DEGROM -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7½-130&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">60.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-215&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">77.8%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248973"><tbody><tr class="evenR"><td class="lineColA"><small>5:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>ARI DBACKS</strong><span class="gPitch">R RAY -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov9-105&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">88.2%
+														</span></td><td class="lineTotal"><span class="lineTxt">+145&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">88.9%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>HOU ASTROS</strong><span class="gPitch">M FIERS -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un9-115&nbsp;</span><span class="
+																		consensusTxt
+																	">11.8%
+														</span></td><td class="lineTotal"><span class="lineTxt">-160&nbsp;</span><span class="
+																		consensusTxt
+																	">11.1%
+														</span></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" id="2248974"><tbody><tr class="oddR"><td class="lineColA"><small>7:10 PM</small></td><td class="lineColB"><table cellpadding="0" cellspacing="0"><tbody><tr class="topRow"><td class="lineName"><strong>SEA MARINERS</strong><span class="gPitch">F HERNANDEZ -R</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">ov7-120&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">100.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">-172&nbsp;</span><span class="
+																		consensusTxt imWinning
+																	">66.7%
+														</span></td></tr><tr class="botRow"><td class="lineName"><strong>SDG PADRES</strong><span class="gPitch">C FRIEDRICH -L</span></td><td class="lineSpread"><span>-</span></td><td class="lineOverunder"><span class="lineTxt">un7EV&nbsp;</span><span class="
+																		consensusTxt
+																	">0.0%
+														</span></td><td class="lineTotal"><span class="lineTxt">+152&nbsp;</span><span class="
+																		consensusTxt
+																	">33.3%
 														</span></td></tr></tbody></table></td></tr></tbody></table></div></div></div><small class="dimmed">Percentages represent the number of bets placed on each side of any given wager.</small><script type="text/javascript">
 							jQuery(document).ready(function() {
 							paginacionLineas();

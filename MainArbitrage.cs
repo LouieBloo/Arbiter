@@ -49,6 +49,8 @@ namespace SportsBetting
             activeScrapers.Add(realBet);
             activeScrapers.Add(myBookie);
             activeScrapers.Add(betDSI);
+
+            webCom = new WebSiteCommunication();
         }
 
         public void startFullSportArbitrage()
@@ -142,7 +144,7 @@ namespace SportsBetting
                 {
                     foreach(Game gm in web.getGames())
                     {
-                        //webCom.sendGameToServer(gm);
+                        webCom.sendGameToServer(gm);
                     }
                     
                 }
@@ -272,7 +274,7 @@ namespace SportsBetting
 
         private void startServer()
         {
-            webCom = new WebSiteCommunication();
+            
             webCom.listen();
 
             //Console.WriteLine("/startRoutine-sports-NBA-MLB-scrapers-RealBet-MyBookie");

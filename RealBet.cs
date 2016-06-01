@@ -62,13 +62,34 @@ namespace SportsBetting
                         Game tempGame = new Game();
                         Team homeTempTeam = new Team();
                         Team awayTempTeam = new Team();
+                        DateTime gameTime;
 
                         //Team Names
                         HtmlNode title = item.SelectSingleNode("./h3[" + (x+1) + "]");
-
-                        if(title == null)
+                        
+                        if (title == null)
                         {
                             Helper.writeError("Couldn't find title!", fileName + sport);
+                            break;
+                        }
+
+
+                        //DATE
+                        HtmlNode date = item.SelectSingleNode("./h3[" + (x + 1) + "]/span");
+                        if(date == null)
+                        {
+                            Helper.writeError("error in date of RealBet", "RealBetDateError");
+                            break;
+                        }
+                        string finalDateString = date.InnerText.Replace("\t", "").Replace("\n", "").Replace("\r", "").Replace(".", "").ToString();
+                        try
+                        {
+                            gameTime = DateTime.Parse(finalDateString);
+                            tempGame.time = gameTime;
+                        }
+                        catch(Exception e)
+                        {
+                            Helper.writeError("date couldnt parse of RealBet", "RealBetDateError");
                             break;
                         }
 
@@ -135,6 +156,8 @@ namespace SportsBetting
                             
                         }
 
+                       
+                        
 
 
                         tempGame.homeTeam = homeTempTeam;

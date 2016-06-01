@@ -68,11 +68,13 @@ namespace SportsBetting
                             Game tempGame = new Game();
                             Team homeTempTeam = new Team();
                             Team awayTempTeam = new Team();
+                            DateTime timeStamp;
 
                             Regex rgx = new Regex("[^a-zA-Z ]");//get ready to remove everything but letters
 
                             HtmlNodeCollection homeName = allRows[x].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" col-lg-4 col-md-4 col-sm-4 col-xs-3 row-offset-0 border-left-lines \")]");
                             HtmlNodeCollection awayName = allRows[x+1].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" col-lg-4 col-md-4 col-sm-4 col-xs-3 row-offset-0 border-left-lines \")]");
+                            
 
                             string homeTeamName;
                             string awayTeamName;
@@ -80,6 +82,7 @@ namespace SportsBetting
                             if (homeName == null || awayName == null || homeName.Count > 1 || awayName.Count > 1)
                             {
                                 Console.WriteLine("Error: too many or too few game names MyBookie");
+                                Helper.writeError("Error: too many or too few game names MyBookie", "MyBookie");
                                 break;
                             }
                             else
@@ -93,6 +96,24 @@ namespace SportsBetting
                             homeTempTeam.name = Helper.replaceTeamName(homeTeamName, fileName);
                             awayTempTeam.name = Helper.replaceTeamName(awayTeamName, fileName);
 
+                            //DATE
+                            HtmlNodeCollection time = allRows[x].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" col-xs-1 row-offset-0 hidden-xs div-time \")]");
+                            if(time == null || time.Count < 1)
+                            {
+                                Helper.writeError("Couldnt get time MyBookie", "MyBookieTime");
+                            }
+                            string date = time[0].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").ToString();
+
+                            try
+                            {
+                                timeStamp = DateTime.Parse(date);//making it in edt not pac
+                                tempGame.time = timeStamp;
+                            }
+                            catch(Exception e)
+                            {
+                                Helper.writeError("Couldnt parse time MyBookie " + e, "MyBookieTimeParse");
+                            }
+                            
 
                             HtmlNodeCollection homeLine = allRows[x].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" regular-line \")]");
                             HtmlNodeCollection awayLine = allRows[x+1].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" regular-line \")]");

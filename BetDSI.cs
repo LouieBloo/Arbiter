@@ -133,7 +133,8 @@ namespace SportsBetting
                     game.homeTeam = homeTeam;
                     game.awayTeam = awayTeam;
                     game.scraper = fileName;
-
+                    game.time = timeStamp;
+                    
                     finishedGames.Add(game);
 
                     x++;

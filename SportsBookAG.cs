@@ -60,13 +60,13 @@ namespace SportsBetting
                     HtmlNodeCollection times = item.SelectNodes (".//div[@id='time']");
                     
 					if (times [0] != null) {
-						//tempGame.time = times [0].InnerText;
-                        //timeStamp = DateTime.Parse(tempGame.time.Replace("EDT", ""));
-                        //Console.WriteLine("time : " + DateTime.Parse(tempGame.time.Replace("EDT", "")));
-					}
-					else
+
+                        string time = times[0].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").Replace("EDT","").ToString();
+                        timeStamp = DateTime.Parse(time);//making it in edt not pac
+                        tempGame.time = timeStamp;
+                    }
+                    else
 					{
-                       
                         Helper.writeError("Couldn't find time! ", fileName + sport);
                     }
 
@@ -118,6 +118,7 @@ namespace SportsBetting
 					tempGame.homeTeam = homeTempTeam;
 					tempGame.awayTeam = awayTempTeam;
                     tempGame.scraper = fileName;
+                    //tempGame.time = timeStamp;time added above
 
 					finishedGames.Add (tempGame);
 				}

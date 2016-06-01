@@ -52,6 +52,7 @@ namespace SportsBetting
             formData["homeTeamLine"] = inputGame.homeTeam.moneyLine + "";
             formData["awayTeamLine"] = inputGame.awayTeam.moneyLine + "";
             formData["scraper"] = inputGame.scraper;
+            formData["date"] = inputGame.time.ToString("yyyy-MM-dd HH:mm:ss"); 
 
             byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
             string responsefromserver = Encoding.UTF8.GetString(responseBytes);
@@ -81,12 +82,14 @@ namespace SportsBetting
             formData["homeTeamLine1"] = inputGame1.homeTeam.moneyLine + "";
             formData["awayTeamLine1"] = inputGame1.awayTeam.moneyLine + "";
             formData["scraper1"] = inputGame1.scraper;
+            formData["date"] = inputGame1.time.ToString("yyyy-MM-dd HH:mm:ss");
 
             formData["homeTeam2"] = Helper.prepareTeamForServer(inputGame2.homeTeam.name);
             formData["awayTeam2"] = Helper.prepareTeamForServer(inputGame2.awayTeam.name);
             formData["homeTeamLine2"] = inputGame2.homeTeam.moneyLine + "";
             formData["awayTeamLine2"] = inputGame2.awayTeam.moneyLine + "";
             formData["scraper2"] = inputGame2.scraper;
+            formData["date2"] = inputGame1.time.ToString("yyyy-MM-dd HH:mm:ss");
 
             formData["percentMadeOnArb"] = percentMadeOnArb+"";
 

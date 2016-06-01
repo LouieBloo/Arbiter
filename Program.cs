@@ -40,14 +40,14 @@ namespace SportsBetting
             //web.sendGameToServer(test);
 
 
-            GlobalArbitrage.addScraper("SportsBook.ag");
-            GlobalArbitrage.addScraper("BetDSI.eu");
-            GlobalArbitrage.addScraper("RealBet.eu");
+            //GlobalArbitrage.addScraper("SportsBook.ag");
+            //GlobalArbitrage.addScraper("BetDSI.eu");
+            //GlobalArbitrage.addScraper("RealBet.eu");
             GlobalArbitrage.addScraper("MyBookie.ag");
             GlobalArbitrage.addSport("MLB");
             //GlobalArbitrage.startFullSportArbitrage();
            GlobalArbitrage.currentSport = "MLB";
-            //GlobalArbitrage.scrapeAllSites();
+            GlobalArbitrage.scrapeAllSites();
           
             Console.ReadKey();
 

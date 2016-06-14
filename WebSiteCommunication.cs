@@ -52,10 +52,21 @@ namespace SportsBetting
             formData["homeTeamLine"] = inputGame.homeTeam.moneyLine + "";
             formData["awayTeamLine"] = inputGame.awayTeam.moneyLine + "";
             formData["scraper"] = inputGame.scraper;
-            formData["date"] = inputGame.time.ToString("yyyy-MM-dd HH:mm:ss"); 
+            formData["date"] = inputGame.time.ToString("yyyy-MM-dd HH:mm:ss");
 
-            byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
-            string responsefromserver = Encoding.UTF8.GetString(responseBytes);
+
+            string responsefromserver = "";
+
+            try
+            {
+                byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
+                responsefromserver = Encoding.UTF8.GetString(responseBytes);
+            }
+            catch(Exception e)
+            {
+                Helper.writeError("Couldnt upload game to server " + e,"WebsiteComError");
+            }
+            
 
 
             if(responsefromserver != "")

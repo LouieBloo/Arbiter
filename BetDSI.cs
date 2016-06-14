@@ -47,11 +47,15 @@ namespace SportsBetting
                 Console.WriteLine("couldnt load in pulled data to scrape " + getName());
             }
 
+            //HtmlNodeCollection externalLinePages = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" externalLinesPage \")]");
+
+            //HtmlNodeCollection topRow = externalLinePages[0].SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" topRow \")]");
             HtmlNodeCollection topRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" topRow \")]");
             HtmlNodeCollection botRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" botRow \")]");
             HtmlNodeCollection timeRow = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" lineColA \")]/small");
 
-            Console.WriteLine(timeRow.Count + " - " + topRow.Count);
+            //Console.WriteLine(externalLinePages.Count);
+            //Console.WriteLine(topRow.Count);
 
             if (topRow == null || botRow == null || timeRow == null || topRow.Count != botRow.Count)
             {
@@ -80,6 +84,10 @@ namespace SportsBetting
                         Helper.writeError("Couldn't find time stamp", fileName + sport);
                         
                     }
+
+
+                    //getting date of game
+                    Console.WriteLine(homeName.Ancestors());
 
                     string time = timeRow[x].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").ToString();
                     DateTime timeStamp = DateTime.Parse(time).AddHours(3);//making it in edt not pac

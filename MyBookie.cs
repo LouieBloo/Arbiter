@@ -108,6 +108,7 @@ namespace SportsBetting
                             {
                                 timeStamp = DateTime.Parse(date);//making it in edt not pac
                                 tempGame.time = timeStamp;
+                                Console.WriteLine(date);
                             }
                             catch(Exception e)
                             {

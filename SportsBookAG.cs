@@ -42,33 +42,26 @@ namespace SportsBetting
                 Console.WriteLine("couldnt load in pulled data to scrape " + getName());
             }
 
-            HtmlNodeCollection nodes = document2.DocumentNode.SelectNodes ("//*[contains(concat(\" \", normalize-space(@class), \" \"), \" eventbox \")]"); 
-			if (nodes == null) 
+            HtmlNodeCollection nodes = document2.DocumentNode.SelectNodes ("//*[contains(concat(\" \", normalize-space(@class), \" \"), \" eventbox \")]");
+            
+            HtmlNode nodes2 = document2.DocumentNode.SelectSingleNode("//*[contains(concat(\" \", normalize-space(@class), \" \"), \" col-xs-12 header-row \")]");
+            HtmlNodeCollection dates = null;
+            int dateIndex = 0;
+
+            if (nodes == null) 
 			{
 				Helper.writeError("Couldn't find any rows! " + sport,fileName);
 			} 
 			else {
-
+            
 				foreach (HtmlNode item in nodes) {  
 
 					Game tempGame = new Game ();
 					Team homeTempTeam = new Team ();
 					Team awayTempTeam = new Team ();
                     DateTime timeStamp;
+                    string date = "";
 
-                    //Get Time
-                    HtmlNodeCollection times = item.SelectNodes (".//div[@id='time']");
-                    
-					if (times [0] != null) {
-
-                        string time = times[0].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").Replace("EDT","").ToString();
-                        timeStamp = DateTime.Parse(time);//making it in edt not pac
-                        tempGame.time = timeStamp;
-                    }
-                    else
-					{
-                        Helper.writeError("Couldn't find time! ", fileName + sport);
-                    }
 
 					//Get Name For each team
 					HtmlNodeCollection names = item.SelectNodes (".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" team-title \")]");
@@ -115,7 +108,54 @@ namespace SportsBetting
                         Helper.writeError("Too many or too little money lines!", fileName + sport);
                     }
 
-					tempGame.homeTeam = homeTempTeam;
+                    
+
+                    //Get Time
+                    HtmlNodeCollection times = item.SelectNodes(".//div[@id='time']");
+                    string time = "";
+                    if (times[0] != null)
+                    {
+                        time = times[0].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").Replace("EDT", "").ToString();
+                        
+                    }
+                    else
+                    {
+                        Helper.writeError("Couldn't find time! ", fileName + "time error");
+                    }
+
+                    //Get Date
+                    dates = item.SelectNodes("//preceding-sibling::div[contains(concat(\" \", normalize-space(@class), \" \"), \" date \")]");
+                    if (dates != null)
+                    {
+                        int count = 0;
+                        foreach (Game gm in finishedGames)
+                        {
+                            if (gm.homeTeam.name == homeTempTeam.name && gm.awayTeam.name == awayTempTeam.name && gm.time.Hour == DateTime.Parse(time).Hour)
+                            {
+                                count++;
+                            }
+                        }
+
+                        if (count < dates.Count)
+                        {
+                            date = dates[count].InnerText;
+                            timeStamp = DateTime.Parse(date + time);
+
+                            tempGame.time = timeStamp;
+                        }
+                        else
+                        {
+                            Helper.writeError("bad count", fileName + "date error");
+                        }
+
+                    }
+                    else
+                    {
+                        Helper.writeError("couldnt find dates!", fileName + "date error");
+                    }
+
+
+                    tempGame.homeTeam = homeTempTeam;
 					tempGame.awayTeam = awayTempTeam;
                     tempGame.scraper = fileName;
                     //tempGame.time = timeStamp;time added above

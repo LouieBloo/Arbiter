@@ -11,6 +11,7 @@ namespace SportsBetting
         public string scraper;
         public Team underDog;
         public Team favorite;
+        public bool hasBeenSentToServer = false;
 		public Game ()
 		{
 

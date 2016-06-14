@@ -243,6 +243,8 @@ namespace SportsBetting
                 Helper.writeArbitrage("Scraper" + xScraper + "Game" + xGame + "..Scraper" + yScraper + "Game" + yGame, xScraper + " " + yScraper + " " + xGame + " " + yGame + Environment.NewLine + allScrapers[xScraper].getGames()[xGame].dumpData() + Environment.NewLine + allScrapers[yScraper].getGames()[yGame].dumpData());
 
                 MainClass.GlobalArbitrage.webCom.sendArbitrageToServer(game1,game2,percentMadeOnArb);
+                allScrapers[xScraper].getGames()[xGame].hasBeenSentToServer = true;
+                allScrapers[yScraper].getGames()[yGame].hasBeenSentToServer = true;
                 //WebSiteCommunication web = new WebSiteCommunication();
                 //web.sendArbitrageToServer(game1,game2,percentMadeOnArb);
 

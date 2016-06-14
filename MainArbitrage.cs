@@ -144,7 +144,11 @@ namespace SportsBetting
                 {
                     foreach(Game gm in web.getGames())
                     {
-                        webCom.sendGameToServer(gm);
+                        if (!gm.hasBeenSentToServer)
+                        {
+                            webCom.sendGameToServer(gm);
+                            gm.hasBeenSentToServer = true;
+                        }
                     }
                     
                 }

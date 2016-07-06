@@ -104,9 +104,18 @@ namespace SportsBetting
 
             formData["percentMadeOnArb"] = percentMadeOnArb+"";
 
-            byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
-            string responsefromserver = Encoding.UTF8.GetString(responseBytes);
-            Console.WriteLine(responsefromserver);
+            try
+            {
+                byte[] responseBytes = webClient.UploadValues(URL, "POST", formData);
+                string responsefromserver = Encoding.UTF8.GetString(responseBytes);
+                Console.WriteLine(responsefromserver);
+            }
+            catch (Exception e)
+            {
+                Helper.writeError("Couldnt upload game to server " + e, "WebsiteComError");
+            }
+
+            
             webClient.Dispose();
            
         }
@@ -157,6 +166,8 @@ namespace SportsBetting
             Console.WriteLine(request.RawUrl);
             parseRequest(request.RawUrl);
             //Console.WriteLine(request.ServiceName);
+
+            Console.WriteLine(responseString);
             return responseString;
         }
 
@@ -168,7 +179,8 @@ namespace SportsBetting
 
             string arguments = input;
             words = arguments.Split(delimiterChars);
-            
+
+            responseString = "";
             
             int x = 0;
             while(x < words.Length)
@@ -194,7 +206,7 @@ namespace SportsBetting
                         break;
                     case "isRoutineRunning":
                         Console.WriteLine("Checking if routine is running...");
-                        MainClass.GlobalArbitrage.isRoutineRunning();
+                        responseString = responseString + MainClass.GlobalArbitrage.isRoutineRunning();
 
                         break;
                 }

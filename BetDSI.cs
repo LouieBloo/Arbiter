@@ -57,6 +57,10 @@ namespace SportsBetting
             //Console.WriteLine(externalLinePages.Count);
             //Console.WriteLine(topRow.Count);
 
+            //getting date of game
+            HtmlNodeCollection testDate = document2.DocumentNode.SelectNodes(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" externalLinesPage \")]");
+            
+
             if (topRow == null || botRow == null || timeRow == null || topRow.Count != botRow.Count)
             {
                 Helper.writeError("one of the rows is null or they are mismatched lengths",fileName+sport);
@@ -86,11 +90,7 @@ namespace SportsBetting
                     }
 
 
-                    //getting date of game
-                    Console.WriteLine(homeName.Ancestors());
-
-                    string time = timeRow[x].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").ToString();
-                    DateTime timeStamp = DateTime.Parse(time).AddHours(3);//making it in edt not pac
+                    
 
                     string homeTeamName = homeName.InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToString();
                     string awayTeamName = awayName.InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToString();
@@ -138,11 +138,56 @@ namespace SportsBetting
                         Console.WriteLine("Error in parsing " + fileName + " " + e);
                     }
 
+
+                    //getting time
+                    string time = timeRow[x].InnerText.Replace("\t", "").Replace("\n", "").Replace(" ", "").Replace("\r", "").Replace(".", "").ToString();
+                    DateTime timeStamp = DateTime.Parse(time).AddHours(3);//making it in edt not pac
+
+                    
+
+
+                    //getting date
+                    int count = 0;
+                    foreach (Game gm in finishedGames)
+                    {
+                        if (gm.homeTeam.name == homeTeam.name && gm.awayTeam.name == awayTeam.name && gm.time.Hour == timeStamp.Hour)
+                        {
+                            count++;
+                        }
+                    }
+
+                    if (count < testDate.Count)
+                    {
+                        string date = testDate[count].SelectSingleNode(".//*[contains(concat(\" \", normalize-space(@class), \" \"), \" linesSubhead \")]").InnerText;
+                        string[] dateSplit = date.Split('-');
+                        try
+                        {
+                            timeStamp = DateTime.Parse(timeStamp.TimeOfDay + " " + dateSplit[1].Replace("&nbsp;", ""));
+                        }
+                        catch(Exception e)
+                        {
+                            Helper.writeError("BetDSI couldnt find date correctly", fileName + " date error: " + e);
+                        }
+                        
+                        //Console.WriteLine(timeStamp.TimeOfDay);
+                        
+                        game.time = timeStamp;
+                    }
+                    else
+                    {
+                        Helper.writeError("bad count", fileName + "date error");
+                    }
+
+
+
+
+
+
                     game.homeTeam = homeTeam;
                     game.awayTeam = awayTeam;
                     game.scraper = fileName;
-                    game.time = timeStamp;
-                    
+
+
                     finishedGames.Add(game);
 
                     x++;
@@ -211,9 +256,9 @@ namespace SportsBetting
                 {
                     //Console.WriteLine("here");
 
-                    var firstNext = driver.FindElementByCssSelector(dropDownLink);
-                    firstNext.Click();
-                    Thread.Sleep(5000);
+                    //var firstNext = driver.FindElementByCssSelector(dropDownLink);
+                    //firstNext.Click();
+                    //Thread.Sleep(5000);
 
                     var next = driver.FindElementById(targetLink);
 

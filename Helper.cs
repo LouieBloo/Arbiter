@@ -13,20 +13,24 @@ namespace SportsBetting
         
         public static string logPath = "e:\\SportsBetting\\Logs\\";
 
-        public static void textMessage(string inputAddress)
+        public static void textMessage(string inputAddress, string inputName, string message, string subject)
         {
+           
             MailMessage msg = new MailMessage();
+            msg.To.Add(new MailAddress(inputAddress, inputName));
             //msg.To.Add(new MailAddress("9166225360@txt.att.net", "SomeOne"));
-            msg.To.Add(new MailAddress("9163006143@vtext.com", "Zac"));
-            msg.From = new MailAddress("leggioluke5@gmail.com", "Arbiter");
-            msg.Subject = "";
-            //msg.Body = "Hello Zac. My name is Arbiter! Luke wanted to test out if I can send text messages and it turns out I can! Woo hoo!";
-            msg.Body = "Hey Nick, you are the coolest! Stay fresh brotha!";
-            msg.IsBodyHtml = true;
+            // Dunn msg.To.Add(new MailAddress("9163006143@vtext.com", "Dunn"));
+            // Karl msg.To.Add(new MailAddress("9162954588@txt.att.net", "Karoline"));
 
+            msg.From = new MailAddress("leggioluke5@gmail.com", "Arbiter");
+            msg.Subject = subject;
+            //msg.Body = "Hello Zac. My name is Arbiter! Luke wanted to test out if I can send text messages and it turns out I can! Woo hoo!";
+            msg.Body = message;
+            msg.IsBodyHtml = true;
+            
             SmtpClient client = new SmtpClient();
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("leggioluke5@gmail.com", "pu9c3nodw");
+            client.Credentials = new System.Net.NetworkCredential("leggioluke5@gmail.com", "your pass here");
             client.Port =25; // You can use Port 25 if 587 is blocked (mine is!)
             client.Host = "smtp.gmail.com";
             client.DeliveryMethod = SmtpDeliveryMethod.Network;

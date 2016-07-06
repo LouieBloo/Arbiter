@@ -215,15 +215,32 @@ namespace SportsBetting
             WebSiteCommunication.responseString = "ok";
         }
 
-        public bool isRoutineRunning()
+        public string isRoutineRunning()
         {
-            if(routineTimer.Enabled)
+            string response = "";
+            if (routineTimer.Enabled)
             {
-                WebSiteCommunication.responseString = "Routine Running";
-                return true;
+                response = "-Routine Running";
+
+
+                foreach(WebsiteScraper web in activeScrapers)
+                {
+                    if(web.isQueued())
+                    {
+                        response += "-" + web.getName();
+                    }
+                }
+                foreach (string sport in activeSports)
+                {
+                    response += "-" + sport;
+                }
             }
-            WebSiteCommunication.responseString = "Routine Not Running";
-            return false;
+            else
+            {
+                response = "-Routine Not Running";
+            }
+            
+            return response;
         }
 
         public  void routineTimerEvent(object source, ElapsedEventArgs e)

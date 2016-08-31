@@ -40,17 +40,7 @@ namespace SportsBetting
 
         public MainArbitrage()
         {
-            WebsiteScraper sportsAG = new SportsBookAG();
-            WebsiteScraper realBet = new RealBet();
-            WebsiteScraper myBookie = new MyBookie();
-            WebsiteScraper betDSI = new BetDSI();
-
-            activeScrapers.Add(sportsAG);
-            activeScrapers.Add(realBet);
-            activeScrapers.Add(myBookie);
-            activeScrapers.Add(betDSI);
-
-            webCom = new WebSiteCommunication();
+            
         }
 
         public void startFullSportArbitrage()
@@ -293,9 +283,22 @@ namespace SportsBetting
             arbitrageBusy = false;
         }
 
-        private void startServer()
+        public void startServer()
         {
-            
+            Helper.deleteAllLogs();
+
+            WebsiteScraper sportsAG = new SportsBookAG();
+            WebsiteScraper realBet = new RealBet();
+            WebsiteScraper myBookie = new MyBookie();
+            WebsiteScraper betDSI = new BetDSI();
+
+            activeScrapers.Add(sportsAG);
+            activeScrapers.Add(realBet);
+            activeScrapers.Add(myBookie);
+            activeScrapers.Add(betDSI);
+
+            webCom = new WebSiteCommunication();
+
             webCom.listen();
 
             //Console.WriteLine("/startRoutine-sports-NBA-MLB-scrapers-RealBet-MyBookie");
@@ -303,21 +306,6 @@ namespace SportsBetting
             //Console.ReadKey();
         }
 
-
-        public void dumpTestData()
-        {
-
-            Console.WriteLine("Dumping MainArb data:");
-            foreach (WebsiteScraper web in activeScrapers)
-            {
-                Console.WriteLine(web.isQueued());
-            }
-
-            foreach(string s in activeSports)
-            {
-                Console.WriteLine(s);
-            }
-        }
 
 
         public void testPull()
@@ -334,8 +322,7 @@ namespace SportsBetting
             //Console.ReadKey();
             //startTimedRoutine(1000);
 
-            Helper.deleteAllLogs();
-            startServer();
+            
 
 
             //startEverything();
@@ -343,10 +330,23 @@ namespace SportsBetting
 
         }
 
-        
 
 
-        
+        public void dumpTestData()
+        {
+
+            Console.WriteLine("Dumping MainArb data:");
+            foreach (WebsiteScraper web in activeScrapers)
+            {
+                Console.WriteLine(web.isQueued());
+            }
+
+            foreach (string s in activeSports)
+            {
+                Console.WriteLine(s);
+            }
+        }
+
 
     }
 }

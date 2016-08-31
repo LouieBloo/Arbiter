@@ -30,8 +30,8 @@ namespace SportsBetting
             
             SmtpClient client = new SmtpClient();
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("leggioluke5@gmail.com", "your pass here");
-            client.Port =25; // You can use Port 25 if 587 is blocked (mine is!)
+            client.Credentials = new System.Net.NetworkCredential("leggioluke5@gmail.com", "pu9c3nodw");
+            client.Port =587; // You can use Port 25 if 587 is blocked (mine is!)
             client.Host = "smtp.gmail.com";
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.EnableSsl = true;

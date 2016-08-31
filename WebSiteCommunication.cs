@@ -72,6 +72,7 @@ namespace SportsBetting
             if(responsefromserver != "")
             {
                 //Helper.writeError("Failure sending game to server", "WebSiteCom");
+               // use the response from server as an id of a game, this id will be used to check if accounts need text messages
             }
 
             Console.WriteLine(responsefromserver);
@@ -152,7 +153,8 @@ namespace SportsBetting
         public void listen()
         {
             //WebServer ws = new WebServer(SendResponse, "http://[2601:204:d300:a6fc:195c:6e37:48bd:c8a0]/");
-            WebServer ws = new WebServer(SendResponse, "http://10.0.0.157:80/");
+            //WebServer ws = new WebServer(SendResponse, "http://10.0.0.157:80/"); //working
+            WebServer ws = new WebServer(SendResponse, MainClass.serverIP);
             Console.WriteLine(ws.ToString());
             ws.Run();
             Console.WriteLine("Webserver Started");
@@ -204,9 +206,22 @@ namespace SportsBetting
                         x = addScraper(x + 1);
 
                         break;
+                    case "isAccountActive":
+                       
+
+                        break;
+                    case "addAccount":
+
+
+                        break;
+                    case "removeAccount":
+
+
+                        break;
                     case "isRoutineRunning":
                         Console.WriteLine("Checking if routine is running...");
                         responseString = responseString + MainClass.GlobalArbitrage.isRoutineRunning();
+
 
                         break;
                 }
@@ -219,31 +234,7 @@ namespace SportsBetting
                 //MainClass.GlobalArbitrage.startEverything();
                 MainClass.GlobalArbitrage.startTimedRoutine(20);
             }
-            //switch (input)
-            //{
-            //    case "/startRoutine":
 
-            //        Console.WriteLine("WebRequest: StartTimedRoutine");
-            //        MainClass.GlobalArbitrage.startTimedRoutine(1000);
-
-            //        break;
-            //    case "/stopRoutine":
-
-            //        Console.WriteLine("Web Request: StopTimedRoutine");
-            //        MainClass.GlobalArbitrage.stopTimedRoutine();
-
-            //        break;
-            //    case "/isRoutineRunning":
-
-            //        Console.WriteLine("Web Request: isRoutineRunning");
-            //        MainClass.GlobalArbitrage.isRoutineRunning();
-
-            //        break;
-            //    default:
-            //        Console.WriteLine("Web Request: couldn't parse");
-            //        responseString = "bad request";
-            //        break;
-            //}
 
 
 

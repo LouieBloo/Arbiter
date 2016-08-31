@@ -10,8 +10,9 @@ namespace SportsBetting
 {
     class Helper
     {
-        
-        public static string logPath = "e:\\SportsBetting\\Logs\\";
+
+        //public static string logPath = "e:\\SportsBetting\\Logs\\";
+        public static string logPath = "..\\..\\Logs\\";
 
         public static void textMessage(string inputAddress, string inputName, string message, string subject)
         {

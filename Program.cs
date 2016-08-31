@@ -15,6 +15,7 @@ namespace SportsBetting
         public static MainArbitrage GlobalArbitrage = new MainArbitrage();
         public static MainForm GlobalMainForm = new MainForm();
         public static string serverIP = "";
+      
        
         public static void Main (string[] args)
 		{

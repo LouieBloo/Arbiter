@@ -51,6 +51,7 @@ namespace SportsBetting
             activeScrapers.Add(betDSI);
 
             webCom = new WebSiteCommunication();
+            Helper.deleteAllLogs();
         }
 
         public void startFullSportArbitrage()

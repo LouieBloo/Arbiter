@@ -234,7 +234,7 @@ namespace SportsBetting
         void pullData(string inputURL, string sportName)
         {
             Console.WriteLine("Starting Pull of " + inputURL);
-            PhantomJSDriverService service = PhantomJSDriverService.CreateDefaultService("E:\\SportsBetting\\packages\\PhantomJS.2.1.1\\tools\\phantomjs");
+            PhantomJSDriverService service = PhantomJSDriverService.CreateDefaultService("..\\..\\packages\\PhantomJS.2.1.1\\tools\\phantomjs");
             service.IgnoreSslErrors = true;
             service.SslProtocol = "any";
             service.LocalToRemoteUrlAccess = true;

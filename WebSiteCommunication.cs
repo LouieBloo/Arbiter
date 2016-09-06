@@ -158,6 +158,11 @@ namespace SportsBetting
             Console.WriteLine(ws.ToString());
             ws.Run();
             Console.WriteLine("Webserver Started");
+
+            
+
+            //parseRequest("startRoutine-sports-MLB-scrapers-SportsBook.ag-BetDSI.eu-RealBet.eu-MyBookie.ag");
+
             Console.ReadKey();
             ws.Stop();
         }

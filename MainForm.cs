@@ -31,7 +31,7 @@ namespace SportsBetting
         {
 
             //MainClass.GlobalArbitrage.startPull();
-            MainClass.GlobalArbitrage.testPull();
+            //MainClass.GlobalArbitrage.testPull();
             //MainClass.GlobalArbitrage.startScraping();
             //Helper.textMessage("9166225360@txt.att.net");  
         }
@@ -50,7 +50,7 @@ namespace SportsBetting
         {
             // logBox += input + Environment.NewLine;
 
-            MainClass.GlobalMainForm.Controls["MainDisplay"].Text += input + Environment.NewLine;
+            //MainClass.GlobalMainForm.Controls["MainDisplay"].Text += input + Environment.NewLine;
             //MainClass.GlobalMainForm.Controls["MainDisplay"].SelectionStart = logBox.Text.Length;
            // MainClass.GlobalMainForm.Controls["MainDisplay"].ScrollToCaret();
 

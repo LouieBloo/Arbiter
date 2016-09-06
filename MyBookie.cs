@@ -87,11 +87,32 @@ namespace SportsBetting
                             }
                             else
                             {
-                                homeTeamName = rgx.Replace(homeName[0].InnerText, "");//get rid of letters
-                                awayTeamName = rgx.Replace(awayName[0].InnerText, "");//get rid of letters
-                                homeTeamName = homeTeamName.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToUpper();
-                                awayTeamName = awayTeamName.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToUpper();
+                               //new mybookie update, have to remove pitchers
+                                string[] removePitchersHome = homeName[0].InnerText.Split(' ');
+                                string[] removePitchersAway = awayName[0].InnerText.Split(' ');
+                                homeTeamName = "";
+                                awayTeamName = "";
+
+                                if(removePitchersHome.Length < 3 || removePitchersAway.Length < 3)
+                                {
+                                    Helper.writeError("mybookie not enough on pitchers", "mybookieError");
+                                }
+                                else
+                                {
+                                    string noPitchersHome = removePitchersHome[1] + " " + removePitchersHome[2];
+                                    string noPitchersAway = removePitchersAway[1] + " " + removePitchersAway[2];
+                                    //now remove last letter
+                                    noPitchersHome = noPitchersHome.Remove(noPitchersHome.Length - 1);
+                                    noPitchersAway = noPitchersAway.Remove(noPitchersAway.Length - 1);
+
+                                    homeTeamName = rgx.Replace(noPitchersHome, "");//get rid of letters
+                                    awayTeamName = rgx.Replace(noPitchersAway, "");//get rid of letters
+                                    homeTeamName = homeTeamName.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToUpper();
+                                    awayTeamName = awayTeamName.Replace("\t", "").Replace("\n", "").Replace(" ", "-").Replace("\r", "").Replace(".", "").ToUpper();
+                                }
+                                
                             }
+
 
                             homeTempTeam.name = Helper.replaceTeamName(homeTeamName, fileName);
                             awayTempTeam.name = Helper.replaceTeamName(awayTeamName, fileName);
@@ -180,7 +201,8 @@ namespace SportsBetting
             }
             else if(sportName == "MLB")
             {
-                url = "http://mybookie.ag/sportsbook/mlb-betting-lines/";
+                //url = "http://mybookie.ag/sportsbook/mlb-betting-lines/";
+                url = "https://mybookie.ag/sportsbook/mlb-odds/";
             }
 
             BackgroundWorker bw = new BackgroundWorker();

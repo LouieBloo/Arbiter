@@ -197,7 +197,7 @@ namespace SportsBetting
             bw.DoWork += (obj, e) => pullData(url, sportName);
             bw.RunWorkerCompleted += (obj, e) => MainClass.GlobalArbitrage.finishedAPull(this);
             bw.RunWorkerAsync();
-        
+            
         }
 
         void pullData(string inputURL, string sportName)

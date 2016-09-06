@@ -40,7 +40,17 @@ namespace SportsBetting
 
         public MainArbitrage()
         {
-            
+            WebsiteScraper sportsAG = new SportsBookAG();
+            WebsiteScraper realBet = new RealBet();
+            WebsiteScraper myBookie = new MyBookie();
+            WebsiteScraper betDSI = new BetDSI();
+
+            activeScrapers.Add(sportsAG);
+            activeScrapers.Add(realBet);
+            activeScrapers.Add(myBookie);
+            activeScrapers.Add(betDSI);
+
+            webCom = new WebSiteCommunication();
         }
 
         public void startFullSportArbitrage()
@@ -287,15 +297,7 @@ namespace SportsBetting
         {
             Helper.deleteAllLogs();
 
-            WebsiteScraper sportsAG = new SportsBookAG();
-            WebsiteScraper realBet = new RealBet();
-            WebsiteScraper myBookie = new MyBookie();
-            WebsiteScraper betDSI = new BetDSI();
 
-            activeScrapers.Add(sportsAG);
-            activeScrapers.Add(realBet);
-            activeScrapers.Add(myBookie);
-            activeScrapers.Add(betDSI);
 
             webCom = new WebSiteCommunication();
 

@@ -15,3 +15,4 @@ E:\SportsBetting\obj\x86\Release\SportsBetting.MainForm.resources
 E:\SportsBetting\obj\x86\Release\SportsBetting.csproj.GenerateResource.Cache
 E:\SportsBetting\obj\x86\Release\SportsBetting.exe
 E:\SportsBetting\obj\x86\Release\SportsBetting.pdb
+E:\SportsBetting\obj\x86\Release\SportsBetting.csprojResolveAssemblyReference.cache

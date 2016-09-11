@@ -170,12 +170,19 @@ namespace SportsBetting
 
 
 
+                string firstThree = "";
+                string firstTwo = "";
 
-
-
-
-                string firstThree = temp.Substring(0, 3);
-                string firstTwo = temp.Substring(0, 2);
+                if (temp.Length >= 2)
+                {
+                    firstTwo = temp.Substring(0, 2);
+                }
+                if (temp.Length >= 3)
+                {
+                    firstThree = temp.Substring(0, 3);
+                }
+                
+                
                 
                 string original = temp;
                
